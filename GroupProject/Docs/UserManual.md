@@ -1,0 +1,7 @@
+1. When you open the app, the first thing that appears is the login page, where you can log in to your personal memo by entering your email and password and clicking "Log In". If it's your first time to use this app, click "Sign up for an account" to enter the account creation page, and then enter your email and password to register. If you accidentally click "Sign up for an account", don't worry, you can go back to the login page by clicking "Have an account? Log in".
+2. After entering the home page, there are three buttons at the bottom of the screen: "LOG OUT", "DELETE", and "ADD REMINDER".
+   - “LOG OUT”：Click this button will log out of the current account.
+   - "DELETE"：Click this button to delete one or more reminders
+   - "ADD REMINDER": After clicking this button, you will enter a new page to create a reminder, complete the reminder with specific information such as "Type", "Name", etc., and then click the "SAVE REMINDER" button to save your new reminder. If you want to abandon your new reminder during the creation process, you can do so by clicking "CANCEL".
+3. Other features
+   - “Search Bar”: At the top of the home page, there is a search bar where you can find your specific reminder by entering keywords like "study", "cs370".

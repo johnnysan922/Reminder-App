@@ -1,2 +1,1 @@
-# Reminder-App
-Collaborated with other students to create a reminder app for our CS370 final project.
+# 370Fall21Sec36Team1

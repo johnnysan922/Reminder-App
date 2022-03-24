@@ -1,0 +1,20 @@
+1) Class Reminder_List is created with attributes (List_ID, Title, Description, Date, Time, Location) with operations of addReminder(); deleteReminder();  editReminder();
+
+2) Class Reminder is careated with attributes (Reminder_ID, User_ID, List_ID, Type_ID) with operations of dayAlert(); and timeAlert(); for users discretion
+    All the foreign keys were added after the completion of other classes and this class holds all database for reminders. confirmReminder() exports data to the user
+
+3) The relationship between User and Reminder classes are formed in order to fulfill this requirement
+
+4) Relationship between User and Reminder will handle this with information inside the databse of Reminder
+
+5) This requirement is fulfilled by #1 already with creation of Reminder_List along with its operations
+
+6,7) Class CheckOffReminder is created with attributes of (CheckOffReminder_ID, List_ID) and operations of addCheckOff(); removeCheckOff(); clearAllCheckOff();
+
+8) This requirement is fulfilled by #5,6 already with creation of CheckOffReminder along with its operations
+
+9,10) Class Reminder_Type is created with attributes (Type_ID) with operations of createReminder(); nameReminder(); selectReminder(); deleteReminder();
+
+11) The operations in Reminder, dayAlert(); timeAlert(); confirmReminder(); will fulfill this requirement
+
+12) locationReminder(); in Reminder class with crosscheck the Location attribute in Reminder_List to set up reminder based on location
